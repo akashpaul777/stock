@@ -20,6 +20,7 @@ MAX_ORDER_SIZE = 6000  # Maximum size of each order
 realized_profit_loss = 0  # Track realized P&L
 position_m = 0  # Track position on main exchange
 position_a = 0  # Track position on alternate exchange
+print("Stocks")
 
 # this helper method returns the current 'tick' of the running case
 def get_tick(session):
